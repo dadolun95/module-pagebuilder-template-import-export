@@ -21,7 +21,7 @@ define([
             if (!error) {
                 let content = $.mage.__('Template successfully imported. The page will be reloaded.');
                 if (externalUrls !== '') {
-                    content += $.mage.__('please consider to verify security of the external resuources inside the template: ') + externalUrls;
+                    content += $.mage.__(' Please verify the security of these external resources in the template: ') + externalUrls;
                 }
                 uiAlert({
                     title: $.mage.__('Import complete'),
