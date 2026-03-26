@@ -79,7 +79,7 @@ class Import extends Action implements HttpPostActionInterface
             if ($importedTemplateId) {
                 $this->messageManager->addSuccessMessage(
                     __(
-                        "Template with ID %1 correctly imported. Please consider to verify security of the external resuources inside the template: %2",
+                        "Template with ID %1 correctly imported. Please verify the security of these external resources in the template: %2",
                         $importedTemplateId,
                         implode(',', $externalUrls)
                     )
