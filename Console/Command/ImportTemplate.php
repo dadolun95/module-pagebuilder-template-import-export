@@ -51,7 +51,7 @@ class ImportTemplate extends \Symfony\Component\Console\Command\Command
             if (!empty($externalUrls)) {
                 $output->writeln(
                     __(
-                        "Template archive imported correctly, please consider to verify security of the external resuources inside the template: %1",
+                        "Template imported correctly. Please verify the security of these external resources in the template: %1",
                         implode(' - ', $externalUrls)
                     )
                 );
