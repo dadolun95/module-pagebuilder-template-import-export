@@ -6,7 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.7.0
 ## Updated
-- Add security check on for external files imported through template and replace adminhtml and frontend urls files included through pagebuilder widget preview module or other solutions.
+- Add security check on external files imported through template.
+- Replace adminhtml and frontend urls files included through pagebuilder widget preview module or other solutions.
 
 ## 1.6.2
 ## Updated
